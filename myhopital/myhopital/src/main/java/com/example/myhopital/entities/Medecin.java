@@ -12,11 +12,12 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Medecin {
+public class Medecin extends Utilisateur {
     @Id
     @GeneratedValue
     private Long matricule_med;
     private Float disponibilité;
     private Long tel_work;
     private String diplome;
+
 }

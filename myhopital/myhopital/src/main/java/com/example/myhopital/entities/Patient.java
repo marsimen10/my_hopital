@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Patient {
+public class Patient extends Utilisateur{
     @Id
     @GeneratedValue
     private String antecedents ;
